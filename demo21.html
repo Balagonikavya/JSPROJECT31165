@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+    <script>
+        //recursive function demo
+        function fact(n)
+        {
+            // if(n==0)
+            //     return 1
+            // else
+            //     return n*fact(n-1)
+            let result=(n==0)?1:n*fact(n-1)
+            return result
+
+        }
+        const input=parseInt(prompt("Enter Value",0))
+        alert("Output="+fact(input))
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>

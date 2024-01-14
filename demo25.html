@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+    <script>
+        //arrow function demo
+        //if only one statement no need to keep return
+       const sum = (a,b) => a+b
+       document.writeln("Output="+sum(10.5,20.5)+"</br>")
+
+
+
+
+        const mul=(a,b) => {
+            let result=a*b
+            return result
+
+        }
+
+        document.writeln("Output="+mul(10,20)+"</br>")
+
+
+
+        const flag=(n)=>{
+
+            if(n%2==0)
+            return true
+            else
+            return false
+        }
+        const input=18//static variable
+        // document.writeln("Output="+flag(input)+"</br>")
+        if(flag(input))
+        document.writeln(input+" is EVEN")
+        else
+        document.writeln(input+" is ODD")
+
+
+
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>
